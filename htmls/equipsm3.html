@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <title>EQUIPS Moto3 2020</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <style>
+            .pagination > li > a
+            {
+                background-color: white;
+                color: #bd1d1d;
+            }
+
+            .pagination > li > a:focus,
+            .pagination > li > a:hover,
+            .pagination > li > span:focus,
+            .pagination > li > span:hover
+            {
+                color: #5a5a5a;
+                background-color: #eee;
+                border-color: #ddd;
+            }
+
+            .pagination > .active > a
+            {
+                color: white;
+                background-color: #bd1d1d !Important;
+                border: solid 1px #bd1d1d !Important;
+            }
+
+            .pagination > .active > a:hover
+            {
+                background-color: #bd1d1d !Important;
+                border: solid 1px #bd1d1d;
+            }
+            #teams{
+                margin: 2%;
+            }
+        </style>
+    </head>
+    <body>
+
+            <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light">
+                <a class="navbar-brand" href="#"><img src="../fotos/logo.png" alt="logo" height="50px"/></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pagPrincipal.html"><i class="fas fa-home"></i> <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="rrss" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-share-alt"></i>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                        <a class="dropdown-item" href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                        <a class="dropdown-item" href="#"><i class="fab fa-facebook"></i> Facebook</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="login" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="far fa-user"></i>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#"><i class="fas fa-user-alt"></i> Login</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-id-card"></i> Sing Up</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="pags" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-bars"></i>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="pilots.html">Pilots</a>
+                        <a class="dropdown-item active" href="equips.html">Equips</a>
+                        <a class="dropdown-item" href="classificacio.html">Classificació</a>
+                      </div>
+                    </li>
+                    
+                  </ul>
+                  <form class="form-inline my-2 my-md-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+
+        <nav aria-label="categories">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="equips.html">MotoGP</a></li>
+                <li class="page-item"><a class="page-link" href="equipsm2.html">Moto2</a></li>
+                <li class="page-item active"><a class="page-link" href="equipsm3.html">Moto3</a></li>
+            </ul>
+          </nav>
+          <section id="teams">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
+                <div class="col mb-4">
+                    <div class="card bg-dark text-white">
+                        <img src="..." class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">BOE Skull Rider Facile Enegry</h5>
+                            <p class="card-text">Davide <b>Pizzoli</b></p>
+                            <p class="card-text">Riccardo <b>Rossi</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card bg-dark text-white">
+                        <img src="..." class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">CarXpert PruestelGP</h5>
+                            <p class="card-text">Jason <b>Dupasquier</b></p>
+                            <p class="card-text">Barry <b>Baltus</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card bg-dark text-white">
+                        <img src="..." class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">CIP Green Power</h5>
+                            <p class="card-text">Darryn <b>Binder</b></p>
+                            <p class="card-text">Maximilian <b>Kofler</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card bg-dark text-white">
+                        <img src="..." class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Esponsorama Racing</h5>
+                            <p class="card-text">Carlos <b>Tatay</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card bg-dark text-white">
+                        <img src="..." class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Estrella Galicia 0,0</h5>
+                            <p class="card-text">Ryusei <b>Yamanaka</b></p>
+                            <p class="card-text">Sergio <b>Garcia</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card bg-dark text-white">
+                        <img src="..." class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Honda Team Asia</h5>
+                            <p class="card-text">Ai <b>Ogura</b></p>
+                            <p class="card-text">Yuki <b>Kunii</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card bg-dark text-white">
+                        <img src="..." class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Kommerling Gresini Moto3</h5>
+                            <p class="card-text">Gabriel <b>Rodrigo</b></p>
+                            <p class="card-text">Jeremy <b>Alcoba</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card bg-dark text-white">
+                        <img src="..." class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Leopard Racing</h5>
+                            <p class="card-text">Jaume <b>Masià</b></p>
+                            <p class="card-text">Dennis <b>Foggia</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card bg-dark text-white">
+                        <img src="..." class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Petronas Strinta Racing</h5>
+                            <p class="card-text">John <b>McPhee</b></p>
+                            <p class="card-text">Khairul Idham <b>Pawi</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card bg-dark text-white">
+                        <img src="..." class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Red Bull KTM Ajo</h5>
+                            <p class="card-text">Raul <b>Fernandez</b></p>
+                            <p class="card-text">Kaito <b>Toba</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card bg-dark text-white">
+                        <img src="..." class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Red Bull KTM Tech 3 </h5>
+                            <p class="card-text">Deniz <b>Öncü</b></p>
+                            <p class="card-text">Ayumu <b>Sasaki</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card bg-dark text-white">
+                        <img src="..." class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Rivacold Snipers Team </h5>
+                            <p class="card-text">Filip <b>Salac</b></p>
+                            <p class="card-text">Tony <b>Arbolino</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card bg-dark text-white">
+                        <img src="..." class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">SIC58 Squadra Corse</h5>
+                            <p class="card-text">Jose Julian <b>Garcia</b></p>
+                            <p class="card-text">Niccolò <b>Antonelli</b></p>
+                            <p class="card-text">Tatsuki <b>Suzuki</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card bg-dark text-white">
+                        <img src="..." class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">SKY Racing Team VR46 </h5>
+                            <p class="card-text">Celestino <b>Vietti</b></p>
+                            <p class="card-text">Andrea <b>Migno</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card bg-dark text-white">
+                        <img src="..." class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Solunion Aspar Team </h5>
+                            <p class="card-text">Albert <b>Arenas</b></p>
+                            <p class="card-text">Stefano <b>Nepa</b></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card bg-dark text-white">
+                        <img src="..." class="card-img" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Sterilgarda Max Racing Team </h5>
+                            <p class="card-text">Alonso <b>lopez</b></p>
+                            <p class="card-text">Romano <b>Fenati</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    </body>
+</html>
